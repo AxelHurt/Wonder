@@ -218,7 +218,7 @@ section{
 .organizadores .container{
     justify-content: center;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     align-items: center;
     background-color: var(--bg);
 }
@@ -331,6 +331,46 @@ section{
 .organizadores a:hover{
     letter-spacing: .1rem;
 }
+
+
+/* djs section starts */
+
+.dj{
+    margin-bottom: 5rem;
+}
+
+.dj .content{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.dj .content .glass-effect{
+    height: 10rem;
+    width: 50rem;
+    border: var(--border);
+    border-radius: 1rem;
+    background: #333333; 
+    background: -webkit-linear-gradient(to left, #dd1818, #333333);  
+    background: linear-gradient(to left, #dd1818, #333333); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.dj .content .glass-effect a{
+    color: #fff;
+    margin: 5%;
+    font-size: 1.5rem;
+}
+
+.dj .content .glass-effect a:hover{
+    letter-spacing: .1rem;
+    color: var(--main-color);
+}
+
 
 /* agradecimientos section starts */
 
@@ -601,6 +641,11 @@ section{
     .home .glass-effect{
         width: 38rem;
         height: 60rem;
+    }
+
+    .dj .content .glass-effect{
+        height: 10rem;
+        width: 40rem;
     }
 
     .organizadores a{
